@@ -1,0 +1,140 @@
+<!-- HOLA! NUEVAMENTE CONSEGUÍ REALIZAR LA MAYORÍA DE COSAS QUE TENÍA EN MENTE, ESTOY MUY INTERESADO EN SEGUIR APRENDIENDO BOOTSTRAP, AL PRINCIPIO ME COSTABA DARME CUENTA DE QUÉ PROPIEDADES PODÍAN SERME ÚTILES Y CUÁLES NO, PERO A MEDIDA QUE FUI AVANZANDO EN EL PROYECTO ME FUE RESULTADO MÁS FACIL E INTUITIVO.
+ALGO QUE ME GUSTARÍA DESTACAR:
+- NECESITÉ USAR LAS PROPIEDAS CONTAINER Y COL DE BOOTSTRAP, ROW NO ME HIZO FALTA.
+- NO SUPE CÓMO QUITAR EL ESPACIO BLANCO QUE SE GENERA AL DESPLEGAR EL NAVBAR ENTRE EL LOGO Y EL DESPLEGABLE, QUISIERA SABER CÓMO HACERLO!
+DESDE YA, ¡MUCHAS GRACIAS! -->
+<!DOCTYPE html>
+<html lang="es">
+    <!-- head -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+        <title> Inicio | Variedad de Tops</title>
+        <!-- favicon -->
+        <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+        <!-- linkeo a css -->
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/estilos.css">
+    </head>
+    <!-- body -->
+    <body>
+        <header class="header sticky-top">
+           <section>
+                    <nav class="navbar navbar-expand-lg bg-imagen-principal">
+                        <div class="container-fluid">
+                                <a class="navbar-brand" href="./index.html"><img class="estilo-logo" src="./assets/img/logo.png" alt="Logo">
+                                </a>
+                        </div>
+                    </nav>
+            </section>
+            <section class="fw-bold fs-5 justify-content-end">
+                <nav class="navbar navbar-expand-lg justify-content-end pt-0">
+                    <div class="container-fluid justify-content-end pe-0 ps-0">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <section class="w-100">
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end bg-amarillo">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./pages/novedades.html">Novedades</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./pages/mas_informacion.html">Más información</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./pages/galeria.html">Galería</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </section>
+                    </div>
+                </section>
+                </nav>
+            </section>
+        </header>
+        <!-- main -->
+        <main class="pt-4">
+            <section class="container-fluid text-center seccion-principal-index">
+            <h1 class="fw-bold">Variedad de Tops</h1>
+            <section class="fs-4">
+                <p>¡Bienvenidos a todos y todas!</p>
+                <p>En este sitio web podrás conocer más a fondo el detrás de escena de los videos que subimos a YouTube. Encontrarás datos interesantes, fabulosas imágenes, etc.</p>
+                <p>Conocerás más acerca de nosotros, las personas que componemos este canal y del proceso de evaluacián, elección y creación que requiere cada video para poder ser publicado.</p>
+                <p>Esperamos que lo disfrutes, hemos creado este sitio con mucho amor y dedicación para nuestros seguidores.</p>
+                <p>En caso de que aún no seas parte de nuestra comunidad, en el pie de página encontrarás accesos directos a todas nuestras redes sociales y canales de comunicación para que seas el primero en enterarte de todo.</p>
+            </section>
+            <section class="container container-fluid text-center">
+                <h2 class="fw-bold">Explora nuestra web</h2>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <a class="text-decoration-none color-negro" href="https://www.youtube.com/@variedaddetops1648" target="_blank">
+                            <div  class="alto">
+                                <img class="w-100 h-75 img-thumbnail" src="./assets/img/index_main/imagen_tarjeta_youtube.png" alt="El canal de YouTube">
+                                <h2 class="text-center text-black ">El canal de YouTube</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <a class="text-decoration-none color-negro" href="./pages/mas_informacion.html">
+                            <div class="alto" >
+                                <img class="w-100 h-75 img-thumbnail " src="./assets/img/index_main/imagen_tarjeta_informacion.jpg" alt="Nosotros">
+                                <h2 class="text-center ">Nosotros</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <a class="text-decoration-none color-negro" href="./pages/contacto.html">
+                            <div class="alto">
+                                <img class="w-100 h-75 img-thumbnail" src="./assets/img/index_main/imagen_tarjeta_contacto.jpg" alt="Contacto">
+                                <h2 class="text-center text-black">Contacto</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="container-fluid text-center seccion-principal-index fs-5">
+                <h3 class="fw-bold">¿Que puedes encontrar en nuestro sitio web?</h3>
+                <p>Novedades: Enterate aquí cuándo serán subidos nuestros próximos videos, ¡Serás el primero en saberlo! </p>
+                <p>Más información: Hemos recopilado una serie de datos interesantes acerca de nosotros para poder insertarlos en esta pestaña y que puedas enterarte de cosas que no han sido reveladas en videos.</p>
+                <p>Galería: Aqui encontrarás una serie de ilustraciones acerca de los máximos representantes del canal, para que puedas ver a cada uno de ellos desde otra perspectiva.</p>
+                <p>Contacto: En este apartado tendrás la posibilidad de enviarnos un mensaje vía e-mail. ¡Puede tratarse de lo que desees! Desde una petición para la realización de un futuro video, hasta un mensaje para preguntarnos algo que quieras.</p>
+            </section>
+        </main>
+        <!-- footer -->
+        <footer class="bg-imagen-principal-footer">
+            <div>
+                <section class="container-fluid text-center text-decoration-none color-blanco pt-5">
+                    <nav>
+                        <h2>Nuestras redes sociales:</h2>
+                        <ul class="no-estilo-lista">
+                            <li><a class="color-blanco text-decoration-none" href="https://www.youtube.com/@variedaddetops1648" target="_blank">- YouTube</a></li>
+                            <li><a class="color-blanco text-decoration-none" href="https://www.tiktok.com/" target="_blank">- TikTok</a></li>
+                            <li><a class="color-blanco text-decoration-none" href="https://www.instagram.com/" target="_blank">- Instagram</a></li>
+                            <li><a class="color-blanco text-decoration-none" href="./pages/mas_informacion.html">- Más información</a></li>
+                            <li><a class="color-blanco text-decoration-none" href="https://www.google.com/" target="_blank">- Acuerdos y Condiciones</a></li>
+                        </ul>
+                    </nav>
+                </section> 
+            </div>
+            <div>
+                <section class="container-fluid color-blanco">
+                    <p class="mb-0"> © 2023 Todos los derechos reservados</p>
+                </section>
+            </div>
+            <!-- acceso rápido a YouTube -->
+            <div class="acceso-youtube">
+                <a href="https://www.youtube.com/@variedaddetops1648" target="_blank">    
+                    <img class="estilo-acceso-youtube" src="./assets/img/acceso_youtube.png" alt="acceso_youtube">
+                </a>       
+            </div>
+        </footer>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
