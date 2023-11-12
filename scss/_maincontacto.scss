@@ -1,0 +1,8 @@
+.btn-propio-formulario-submit{
+    background-color: rgb(255, 217, 16);
+    color: black;
+}
+.btn-propio-formulario-reset{
+    @extend .btn-propio-formulario-submit;
+    background-color: map-get($colores , color-rojo );
+}

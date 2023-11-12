@@ -1,0 +1,13 @@
+.bg-amarillo{
+    background-color: rgb(255, 217, 16);
+}
+.border-amarillo{
+    border-color: rgb(255, 217, 16);
+    border-style: solid;
+}
+.color-negro{
+    color: map-get($colores , color-negro );
+}
+.color-blanco{
+    color: map-get($colores , color-blanco );
+}

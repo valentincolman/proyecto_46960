@@ -1,0 +1,15 @@
+.seccion-principal-index{
+    padding: 25px;
+    border-color: map-get($colores , color-negro );
+    border-radius: 0%;
+    border-style: solid;
+    margin: 40px auto;
+    width: 90%;
+    .alto{
+        height: 50vh;
+    }
+    .alto img:hover{
+        object-fit: cover;
+        transform: scale(1.5); transition: 0.5s;
+    }
+}

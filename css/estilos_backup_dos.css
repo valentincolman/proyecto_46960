@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'League Spartan', sans-serif;
+    color: black;
+    background-color: white;
+}
+.bg-imagen-principal{
+    background-image: url(../assets/img/background_header.png);
+
+}
+.bg-imagen-principal-footer{
+    background-image: url(../assets/img/background_footer.png);
+}
+.bg-amarillo{
+    background-color: rgb(255, 217, 16);
+}
+.acceso-youtube {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    right: 55px;
+    bottom: 55px;
+    background-color: red;
+}
+.estilo-acceso-youtube{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    right: 55px;
+    bottom: 55px;
+}
+.estilo-logo {
+    height: 170px;
+    width: 170px;
+    margin-top: 5px;
+    margin-left: 25px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 8px;
+    border-top-color: white;
+    border-bottom-color: black;
+    border-right-color: rgb(255, 217, 16);
+    border-left-color: rgb(255, 217, 16);
+}
+.seccion-principal-index{
+    padding: 25px;
+    border-color: black;
+    border-radius: 0%;
+    border-style: solid;
+    margin: 40px auto;
+    width: 90%;
+}
+/* .alto y .alto img corresponden a las tarjetas del index */
+.alto{
+    height: 50vh;
+}
+.alto img{
+    object-fit: cover;
+}
+.color-negro{
+    color: black;
+}
+.color-blanco{
+    color: white;
+}
+.no-estilo-lista{
+    list-style: none;
+}
+.item-galeria{
+    width: 300px;
+    height: 300px;
+}
+.item-galeria img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.btn-propio-formulario{
+    background-color: rgb(255, 217, 16);
+    color: black;
+}
+.border-amarillo{
+    border-color: rgb(255, 217, 16);
+    border-style: solid;
+}
