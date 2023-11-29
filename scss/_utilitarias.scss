@@ -11,3 +11,6 @@
 .color-blanco{
     color: map-get($colores , color-blanco );
 }
+.color-violeta-principal{
+    color: map-get($colores , color-violeta-propio);
+}
